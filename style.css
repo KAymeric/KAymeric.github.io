@@ -36,7 +36,7 @@ h1,h2{
 }
 
 .demoContent{
-    width: 400px;
+    width: calc(100vw/3);
     margin-inline: 2%;
     position: relative;
 }
