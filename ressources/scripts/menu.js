@@ -1,4 +1,5 @@
 import { data } from "./data.js";
+import { setIsTurning } from "./Three.js";
 let div;
 let center = 0;
 let offset = 0;
@@ -14,6 +15,7 @@ document.querySelectorAll(".arrow").forEach(arrow => {
         div =document.querySelector("#page");
         offset = 0;
         center -= direction;
+        setIsTurning(direction);
         debugCenter();
         move();
     })
@@ -32,6 +34,9 @@ function demoContent(){
         desciption.innerText = element.Desciption;
     
         container.classList.add("demoContent");
+        title.classList.add("overlay");
+        desciption.classList.add("overlay");
+        img.classList.add("overlay");
         container.appendChild(title);
         container.appendChild(desciption);
         container.appendChild(img);
@@ -41,12 +46,12 @@ function demoContent(){
 
 function move(){
     if (Math.abs(offset)<34){
-        div.style.transform = `translate3d(${offset}%, 0, 0)`;
+        div.style.marginLeft = offset+"%";
         offset+=direction;
         window.setTimeout(move,25);
     } else {
         deleteChild(div);
-        div.style.transform = `translate3d(0, 0, 0)`;
+        div.style.marginLeft = "0";
         demoContent();
         offset = 0;
     }

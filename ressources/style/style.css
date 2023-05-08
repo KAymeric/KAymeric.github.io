@@ -18,6 +18,8 @@ canvas{
 h1,h2{
     width: 100%;
     text-align: center;
+    z-index: 2;
+    position: relative;
 }
 
 #menu{
@@ -49,7 +51,7 @@ h1,h2{
     padding: 2%;
 }
 
-.demoContent > div, .demoContent > h3 {
+.overlay {
     position:relative;
     z-index: 2;
 }
