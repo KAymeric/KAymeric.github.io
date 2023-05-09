@@ -32,6 +32,7 @@ function demoContent(){
         
         title.innerText = element.Title;
         desciption.innerText = element.Desciption;
+        img.src = element.Image;
     
         container.classList.add("demoContent");
         title.classList.add("overlay");

@@ -63,6 +63,19 @@ h1,h2{
     position: absolute;
     height: 400px;
 }
+
+img{
+    padding-top: 5%;
+    width: 75%;
+    height: 50%;
+}
+
 .right,.left{
+    z-index: 3;
+}
+
+#info{
+    margin-left: 10%;
+    position: relative;
     z-index: 3;
 }

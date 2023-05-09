@@ -1,22 +1,22 @@
 export const data = [
     {
-        Title:"Projet1",
-        Desciption: "Lorem ipsum dolor sit amet consectetur adipisicing elitNihil expedita dignissimos doloremque laborum obcaecati sint voluptate architecto odio Sed quo perspiciatis unde alias magni sequi eius placeat deserunt Consequatur eius",
-        Image:"url",
+        Title:"Hangman",
+        Desciption: "Jeu du pendu en go dans une console Linux !",
+        Image:"ressources/textures/1.png",
     },
     {
-        Title:"Projet2",
-        Desciption: "Lorem ipsum dolor sit amet consectetur adipisicing elitNihil expedita dignissimos doloremque laborum obcaecati sint voluptate architecto odio Sed quo perspiciatis unde alias magni sequi eius placeat deserunt Consequatur eius",
-        Image:"url2",
+        Title:"Hangman Web",
+        Desciption: "Projet Hangman adapté sur un sit web !",
+        Image:"ressources/textures/2.png",
     },
     {
-        Title:"Projet3",
-        Desciption: "Lorem ipsum dolor sit amet consectetur adipisicing elitNihil expedita dignissimos doloremque laborum obcaecati sint voluptate architecto odio Sed quo perspiciatis unde alias magni sequi eius placeat deserunt Consequatur eius",
-        Image:"url3",
+        Title:"Groupie Tracker",
+        Desciption: "Site web complexe fonctionnant grâce à une base de donnée d'artiste. Permet de rechercher des artistes et de localiser leurs concerts sur une carte",
+        Image:"ressources/textures/3.png",
     },
     {
-        Title:"Projet4",
-        Desciption: "Lorem ipsum dolor sit amet consectetur adipisicing elitNihil expedita dignissimos doloremque laborum obcaecati sint voluptate architecto odio Sed quo perspiciatis unde alias magni sequi eius placeat deserunt Consequatur eius",
-        Image:"url3",
+        Title:"Dedale",
+        Desciption: "Projet Ydays : Jeu vidéo Rogue like sur le thème du labyrinthe de Dédale. Le jeu permet d'explorer un labyrinthe différents à chaque fois et d'affronter un boss unique : la Méduse !",
+        Image:"ressources/textures/4.png",
     },
 ];
