@@ -79,3 +79,8 @@ img{
     position: relative;
     z-index: 3;
 }
+
+a:link, a:visited, a:hover, a:active{
+    color: whitesmoke;
+    visi
+}
